@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper scissors Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Rock Paper Scissors</h1>
+    <div class="choices">
+      <div class="choice" id="rock">
+        <img
+          src="https://media.geeksforgeeks.org/wp-content/uploads/20210705223618/default.jpeg"
+        />
+      </div>
+      <div class="choice" id="Scissors">
+        <img
+          src="https://media.geeksforgeeks.org/wp-content/uploads/20210705223721/scissor.jpeg"
+        />
+      </div>
+      <div class="choice" id="paper">
+        <img
+          src="https://media.geeksforgeeks.org/wp-content/uploads/20210705223645/paper.jpeg"
+        />
+      </div>
+    </div>
+    <div class="score-board">
+      <div class="score">
+        <p id="user-score">0</p>
+        <p>you</p>
+      </div>
+
+      <div class="score-board">
+        <div class="score">
+          <p id="computer-score">0</p>
+          <p>comp</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="msg-container">
+      <p id="msg">play your move</p>
+    </div>
+    <script src="game.js"></script>
+  </body>
+</html>
